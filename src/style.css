@@ -1,1 +1,40 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.carta {
+  width: 300px;
+  height: 450px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  position: relative;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  background-color: white;
+}
+.carta .palo {
+  position: absolute;
+  font-size: 60px; 
+  transform: translate(-10px, -10px); 
+}
+.carta .palo-top-left {
+  top: 5px;
+  left: 10px;
+}
+.carta .palo-bottom-right {
+  bottom: 5px;
+  right: 10px;
+  transform: translate(10px, 10px);
+}
+.valor {
+  font-size: 100px;
+}
+
+.carta .palo.rojo {
+  color: red;
+}
+
+.carta .palo.negro {
+  color: black;
+}
