@@ -22,6 +22,6 @@ function generarCarta() {
     <div class="palo palo-bottom-right ${colorClase}">${palo}</div>
   `;
 }
-
-
 window.onload = generarCarta;
+
+document.getElementById('btnGenerar').addEventListener('click', generarCarta);
