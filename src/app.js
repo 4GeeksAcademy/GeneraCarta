@@ -15,7 +15,7 @@ function generarCarta() {
 
 
   let carta = document.getElementById('carta');
-  let colorClase = (palo === '♥' || palo === '♠') ? 'rojo' : 'negro';
+  let colorClase = (palo === '♥' || palo === '♦') ? 'rojo' : 'negro';
   carta.innerHTML = `
     <div class="palo palo-top-left ${colorClase}">${palo}</div>
     <div class="valor">${valor}</div>
